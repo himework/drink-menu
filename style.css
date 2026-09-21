@@ -1,0 +1,65 @@
+body{
+margin: 0;
+background-color: #f4f1ea;
+color: #49352c;
+font-family: sans-serif;
+}
+
+.site-header{
+    padding: 40px 20px;
+    background-color: #49674f;
+    color: white;
+}
+ .site-header h1{
+    margin: 0;
+}
+
+main{
+    max-width: 640px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.drink-list h2{
+    padding: 24px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(73, 53, 44, 0.1);
+}
+
+.drink-list h2{
+    color: #49674f;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    margin-bottom: 12px; 
+    padding: 12px;
+    background-color: #f4f1ea;
+    border-radius: 8px;
+    transition: transform 0.3s;,box-shadow: 0.3s;
+
+}
+
+/*リスト内の見出し(名前)*/
+.drink-list li strong{
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+/* リスト内の説明文。 */
+.drink-list li p{
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+li:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
